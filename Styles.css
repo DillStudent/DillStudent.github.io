@@ -1,0 +1,19 @@
+h1{
+    font-size: 30px;
+    background-color: rgb(78, 157, 157);
+    text-align: center;
+}
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkslategray;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td {
+    border: 5px solid cornflowerblue;
+    padding: 10px;
+    text-align: center;
+    
+}
