@@ -1,0 +1,83 @@
+h1 {
+    font-size: 50px;
+    background-color: rgb(24, 24, 24);
+    text-align: center;
+margin: 0;
+color: aliceblue;
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(188, 188, 188);
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    border: 5px solid cornflowerblue;
+    padding: 0px;
+    text-align: center;
+
+}
+
+.navbar {
+    background-color: rgb(103, 103, 92);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Nav-but {
+    color: coral;
+    width: 150px;
+    height: 20px;
+    font-size: 15px;
+}
+header{
+    margin: 0;
+    padding:0;
+top: 0;
+}
+.home-head{
+text-align: center;
+
+}
+.home-p{
+    text-align: left;
+    margin: 70px;
+    margin-top: 150px;
+    font-size: 25px;
+}
+.vid-bod{
+    text-align: center;
+    background-color: black;
+    border-radius: 20px;
+margin-top: 100px;
+}
+
+footer{
+    text-align: center;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+  margin-top: 200px;
+    justify-content: center;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  
+}
