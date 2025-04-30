@@ -13,25 +13,31 @@ html{
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(188, 188, 188);
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: rgb(226, 212, 195);
     color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
     height: 100%;
-    text-decoration: none;
 }
 
 table {
-    border-collapse: collapse;
-    width: 100%;
+   border-style: solid;
+   border-color: black;
+justify-content: center;
+margin:auto;
 }
 
 td {
-    border: 5px solid cornflowerblue;
-    padding: 0px;
-    text-align: center;
-
+   border-style: solid;
+   border-color: black;
+   text-align:left;
+   padding: 10px;
+   line-height: 1.5;
+}
+th{
+    border-style: solid;
+   border-color: black;
 }
 
 .navbar {
@@ -80,4 +86,11 @@ footer{
     padding-top: 70px;
     padding-bottom: 70px;
   
+}
+article{
+    background-color: rgba(240, 248, 255, 0.3);
+    border-radius: 30px;
+    box-shadow: inset;
+    padding: 30px;
+    margin: 50px;
 }
