@@ -1,105 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="HTML, CSS">
-    <meta name="description" content="Pc building Resources">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Nsikan Morgan">
+<html lang="en">    <head>
+        <meta charset="utf-8">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="description" content="Pc building Resources">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Nsikan Morgan">
 
-    <title>Home</title>
-    <link rel="stylesheet" href="Styles.css">
-
-</head>
-
-<header>
-    <h1>Home 
-        <img class="Logo" src="codedex-bot-logo-cropped.gif" alt="log">
+        <title>Home</title>
+        <link rel="stylesheet" href="Styles.css">
+    
+    </head>
+  
+    <header>
+        <h1>About Us
+             <img class="Logo" src="codedex-bot-logo-cropped.gif" alt="log">
        
         <div class="x">
             <button class="X-but"> <strong>menu</strong> </button>
             <div class="dropdown">
-                <a href="index.html"><button class="Nav-but">Home</button></a>
-                <a href="PartExpl.html"><button class="Nav-but"> Part Explanation</button></a>
-                <a href="GameRequ.html"><button class="Nav-but">Game Reqs</button></a>
-                <a href="VidReso.html"><button class="Nav-but">Video Resources</button></a>
-                <a href="aboutus.html"><button class="Nav-but">About Us</button></a>
+                <a href="index.html">Home</a>
+                <a href="PartExpl.html">Part Explanation</a>
+                <a href="GameRequ.html">Game Reqs</a>
+                <a href="VidReso.html">Video Resources</a>
+                <a href="aboutus.html">About Us</a>
 
             </div>
         </div>
      </h1>
-</header>
+    </header>
 
 <body>
-
-
-
-    <article class="home-p">
-        This website will help you organize all
-        the parts that you want to build in your new PC
+    <article class="Aboutus">
         <br>
-        you will not only learn to organize your parts but also to
-        provide resources on the different specifications that you
-        need to know about to start building a PC
+        
+            This website was created as a final project for my LIS 646 class. 
+        The inspiration came from the fact that, at the time, I had just 
+        finished building my first gaming PC. I thought it would be a great topic 
+        for a website because there’s a lot of information to learn before 
+        building a PC, and having it all in one place could be valuable.
         <br>
-        <h2>"I don't know anything, where to start?"</h2>
-
-        If you are building a PC for the first time and you know nothing
-        about anything, don't worry — it's (mostly) simpler
-        than it seems
         <br>
-        Firstly, What you need
-        to build a PC is as follows:
-        <form id="pcBuilderForm">
-
-            <label><input type="checkbox" name="parts" value="CPU"> CPU</label><br>
-            <label><input type="checkbox" name="parts" value="CPU Cooler"> CPU Cooler</label><br>
-            <label><input type="checkbox" name="parts" value="Thermal Paste"> Thermal Paste</label><br>
-
-            <label><input type="checkbox" name="parts" value="Motherboard"> Motherboard</label><br>
-            <label><input type="checkbox" name="parts" value="RAM"> RAM [Memory]</label><br>
-            <label><input type="checkbox" name="parts" value="Storage"> Storage</label><br>
-
-            <label><input type="checkbox" name="parts" value="GPU"> GPU [Graphics Card]</label><br>
-            <label><input type="checkbox" name="parts" value="GPU Sag Bracket"> GPU Sag Bracket</label><br>
-
-            <label><input type="checkbox" name="parts" value="Case"> Case</label><br>
-            <label><input type="checkbox" name="parts" value="Case Fans"> Case Fans</label><br>
-
-            <label><input type="checkbox" name="parts" value="Power Supply"> Power Supply [PSU]</label><br>
-            <label><input type="checkbox" name="parts" value="Monitor"> Monitor</label><br>
-            <br>
-            <button class="Nav-but" type="button" onclick="processForm()">Submit</button>
-        </form>
-        <br>
-        <script>
-            function processForm() {
-                const selectedParts = [];
-                const checkboxes = document.querySelectorAll('input[name="parts"]:checked');
-                checkboxes.forEach(cb => selectedParts.push(cb.value));
-
-                alert("You selected: " + selectedParts.join(", "));
-            }
-        </script>
-        This list is also a <strong> Checklist</strong>, that you can check off when you decide on the part you are
-        going to get<br>
-        This may look like a long list of things, but as you
-        learn more, it will become simpler and easier to understand.
-
-        For more information on how to pick each part, <a href="PartExpl.html">Click here</a>
+One thing to remember when browsing this website is that it’s meant to be 
+an easy, casual read. The goal is to provide the basic information someone 
+would need to get started with building a gaming PC. Each page offers a general 
+overview—not an in-depth guide—so that readers can get a simple, foundational 
+understanding of the different parts they might want to buy.
+<br>
+<br>
 
     </article>
-
     <footer>
-        © <Span>
-            <script>document.write(new Date().getFullYear());</script>
-        </Span>
-        LIS646, Inc. All Rights Reserved.
-        <br>
-        <br>
-        Nsikan Morgan
+        © <Span><script>document.write(new Date().getFullYear());</script></Span>
+           LIS646, Inc. All Rights Reserved.
+            <br>
+            <br>
+            Nsikan Morgan
     </footer>
 </body>
-
-
 </html>
