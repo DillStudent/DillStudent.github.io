@@ -5,9 +5,9 @@ h1 {
     text-align: center;
     margin: 0;
     color: aliceblue;
-    padding: 10px;
-
-               /* Optional spacing between h1 and image */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
 }
 
 html {
@@ -19,11 +19,12 @@ html {
 }
 
 body {
-   background-image: url(home-head-scaled.jpg);
+  /** background-image: url(home-head-scaled.jpg);**/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   height: 100%;
+    height: 100%;
+                 background-color: rgb(255, 255, 255);
     color: rgb(226, 226, 226);
     margin: 0;
     padding: 0;
@@ -54,32 +55,15 @@ th {
     border-color: rgb(158, 158, 158);
 }
 
-.navbar {
-    background-color: rgb(103, 103, 92);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.Nav-but {
-    color: azure;
-    width: 200px;
-    height: 50px;
-    font-size: 20px;
-    text-decoration: 0;
-    margin: 0;
-    border: aliceblue;
-    border-width: 2px;
-    background-color: rgb(24,24,24);
-    cursor: pointer;
-border-radius: 20px;
-}
+
 
 header {
     margin: 0;
     padding: 0;
     top: 0;
     display: inline;
+    width:100%
 }
 
 .home-head {
@@ -147,45 +131,59 @@ iframe {
     border-radius: 30px;
 }
 
+
 .dropdown {
     display: none;
     position: absolute;
-    left: 1310px;
-    bottom: 353px;
-    float: none;
+    top: 40px;
+    right: -80px;
     min-width: 160px;
     z-index: 1;
     overflow: hidden;
     background-color: rgb(24, 24, 24);
-border-bottom-right-radius:20px ;
-border-bottom-left-radius:20px ;
+    border-radius: 5px;
+
 }
 
 .x:hover .dropdown {
     display: block;
     cursor: pointer;
+    
 }
 
 .dropdown a {
-    float: none;
     display: block;
     cursor: pointer;
+     color: azure;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-decoration: 0;
+    margin: 0;
+    border: aliceblue;
+    border-width: 2px;
+    background-color: rgb(24,24,24);
+border-radius: 5px;
+padding-top: 20px;
+padding: 5;
 
 
 }
+
 
 .x {
-    float: right;
     display: inline;
     cursor: pointer;
+    position: absolute;
+    right:100px;
+    top:20px
 
 }
+
 .X-but{
-    position:absolute;
+position:absolute;
 width: 80px;
 height: 40px;
-left: 1430px;
-top: 20px;
 font-size: 20px;
 text-decoration: none;
 background-color: rgb(0, 0, 0);
@@ -194,7 +192,7 @@ cursor: pointer;
 z-index: 2;
 outline: none;
 border: 0.001px solid rgb(48, 48, 48);
-border-radius: 10px;
+border-radius: 5px;
 }
 
 .X-but:hover{
@@ -203,7 +201,7 @@ border-radius: 10px;
 
 }
 
-.Nav-but:hover{
+.dropdown a:hover{
     background-color: rgb(51, 51, 51);
     color: rgb(223, 223, 223);
 
